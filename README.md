@@ -1,5 +1,4 @@
-# SixArm » Rails » <br>
-Demo Devise authentication
+# SixArm » Rails » <br> Demo Devise authentication
 
 Rails demonstration application that shows how to set up the Devise gem for user authentication.
 
@@ -41,7 +40,7 @@ Start the Rails server:
 bin/rails server
 ```
 
-Browse http://localhost:3000 and you see the application running.
+Browse <http://localhost:3000> and you see the application running.
 
 
 ## Home Page
@@ -58,7 +57,7 @@ Generate:
 bin/rails generate controller home index
 ```
 
-Browse `http://localhost:3000` to see the new home page.
+Browse <http://localhost:3000> to see the new home page.
 
 
 ## Messages
@@ -190,7 +189,7 @@ class HomeController < ApplicationController
   before_action :authenticate_user!
 ```
 
-Browse `http://localhost:3000/` and you now see the Devise sign in page.
+Browse <http://localhost:3000/> and you now see the Devise sign in page.
 
 The page says "You need to sign in or sign up before continuing."
 
